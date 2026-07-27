@@ -1,6 +1,6 @@
 {
-  "version": "50000028",
-  "url": "https://github.com/yhj2026/Release/releases/download/v50000028/ServoWorks_50000028.zip",
+  "version": "50000029",
+  "url": "https://github.com/yhj2026/Release/releases/download/v50000029/ServoWorks_50000029.zip",
   "sha256": "",
-  "changelog": "GitHub Release 基线。客户端当前版本为 50000028。发布新版时请同步提高 version、上传 zip 到 Releases，并填写 sha256。"
+  "changelog": "ServoWorks 50000029"
 }
