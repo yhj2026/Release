@@ -14,7 +14,7 @@
 ```json
 {
   "version": "50000029",
-  "url": "https://github.com/yhj2026/Release/releases/download/v50000029/ServoWorks_50000029.zip",
+  "url": "https://github.com/yhj2026/Release/releases/download/v50000029/ServoWorksPatch50000029.zip",
   "sha256": "小写十六进制，可先留空（不校验）",
   "changelog": "更新说明"
 }
