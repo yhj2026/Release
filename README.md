@@ -27,7 +27,7 @@
 ## 发布新版本步骤
 
 1. 把完整可运行目录打成 zip（根目录需含 `ServoWorks.exe` 及依赖 dll；建议不要覆盖正在运行的 `MaintenanceTool.exe`，或接受该文件更新失败）。
-2. 在 GitHub 建 Release，Tag 例如 `v50000029`，上传 `ServoWorks_50000029.zip`。
+2. 在 GitHub 建 Release，Tag 例如 `v50000029`，上传 `ServoWorksPatch50000029.zip`。
 3. 修改本仓库 `version.json`：`version` / `url` / `changelog`，建议填 `sha256`。
 4. `git add version.json && git commit && git push`
 5. 客户端 `SOFTVERSION_NUMBER` 发版时改为同一新版本号。
@@ -35,7 +35,7 @@
 ## 计算 sha256（PowerShell）
 
 ```powershell
-Get-FileHash .\ServoWorks_50000029.zip -Algorithm SHA256
+Get-FileHash .\ServoWorksPatch50000029.zip -Algorithm SHA256
 ```
 
 把输出的 Hash 填进 `version.json`（小写或大写均可，客户端按不区分大小写比较）。
